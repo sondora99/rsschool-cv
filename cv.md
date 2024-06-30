@@ -7,7 +7,8 @@
 
 ***
 ## About me:   
--    
+I work in IT company in management and my goal is to switch to IT development. Coding is very attractive to me, because with the help of commands, letters, zeros and ones you can create something new and useful.  I like to study and to learn new things, my strong point is perseverance. I'll do my best to become a frontend developer. 
+   
 ### Skills:
 * HTML, CSS
 * Java Script (basics)
@@ -31,7 +32,9 @@ function maskify(cc) {
 ```
 
 ## Experience:
-* 
+* Git CV:
+https://sondora99.github.io/rsschool-cv/cv
+
 ## Education:
 * BSEU Minsk, Belarus:
     * Bachelor, Marketing specialist
