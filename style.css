@@ -1,3 +1,142 @@
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #163152;
+    background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: #163152;
+}
+
+.main{
+    padding: 0 20px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section{
+    /*border: 1px solid red;*/
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-height: 350px;
+    padding: 10px;
+}
+
+
+.header{
+    background-color: #f8f3ef;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+  }
+
+
+
+.nav-list-item{
+    margin-right: 20px;
+}
+
+.nav-list-item:last-child{
+    margin-right: 0;
+}
+
+.nav-list-link:hover {
+    color: rgba(22, 49, 82, 0.5);
+  }
+
+.content-columns{
+    display: flex;
+}
+
+.left-column{
+    width: 40%;
+}
+
+.right-column{
+    width: 60%;
+    margin-left: 20px;
+}
+
+.left-column.profile{
+    text-align: center;
+}
+
+.user-img{
+    text-align: center;
+    border-radius: 50%;
+}
+
+.section-title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: #163152;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    text-underline-position: under;
+  }
+
+.contacts-title{
+    margin: 0;
+    font-size: 16px;;
+}
+
+.contacts-info{
+    margin: 0;
+}
+
+.left-column .section{
+    background-color: #fbebea;
+}
+
+pre{
+    padding: 0;
+    margin: 0;
+}
+
+.footer{
+    background-color: #f8f3ef;
+}
+  
+.list.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+.rss-logo{
+    width: 125px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.git-logo{
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.list.footer {
+    list-style: none;
 }

@@ -4,6 +4,136 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CV</title>
+<link rel="stylesheet" href="style.css">
 </head>
-<body></body>
+<body>
+    <div class="container">
+    <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a class="nav-list-link" href="#profile">Profile</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="#contacts">Contacts</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="#about-me">About me</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="#skills">Skills</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="#code-example">Code Example</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="#experience">Experience</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="#education">Education</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="#languages">Languages</a></li>
+                </ul>               
+            </nav>
+    </header>
+    <main class="main">
+        <div class="content-columns">
+            <div class="left-column profile">
+                <img class="user-img" src="img/cat-img.jpg" alt="Mary Mikuich">
+            </div>
+            <div class="right-column">
+                <h1 class="title">Mary Mikulich</h1>
+                <p class="subtitle">Junior frontend developer</p>
+            </div>
+        </div>
+        <div class="content-columns">
+            <div class="left-column">
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts:</h2>
+                <ul class="list contacts">
+                    <li class="contacts-list-item">
+                        <h3 class="contacts-title">E-mail:</h3>
+                        <a class="contacts-info" href="mailto:marymikser@gmail.com">marymikser@gmail.com</a>
+                    </li>
+                    <li class="contacts-list-item">
+                        <h3 class="contacts-title">Discord:</h3>
+                        <p class="contacts-info">masham.sondora99_28186</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills:</h2>
+                <ul class="list skills">
+                    <li class="list-item">HTML, CSS</li>
+                    <li class="list-item">Java Script (basics)</li>
+                    <li class="list-item">Python (basics)</li>
+                    <li class="list-item">Version control: GitHub</li>
+                    <li class="list-item">Figma, Adobe Photoshop</li>
+                    <li class="list-item">VS Code, PyCharm</li>
+                </ul>
+            </section>
+            <section class="section" id="code-example:">
+              <h2 class="section-title">Code Example:</h2>
+              <pre>
+                <code>
+ javascript
+ function maskify(cc) {
+ if (cc.length > 4) {
+    let starsLength = cc.length-4;
+    let visible = cc.slice(-4);
+        return `${'#'.repeat(starsLength)}${visible}`
+    } else {
+        return cc 
+        }
+    }
+                    </code>
+                </pre>
+            </section>
+        </div>
+        <div class="right-column">
+            <section class="section" id="about-me">
+                <h2 class="section-title">About me:</h2>
+                <p class="text">
+                    I work in IT company in management and my goal is to switch to IT development. Coding is very attractive to me, because with the help of commands, letters, zeros and ones you can create something new and useful.  I like to study and to learn new things, my strong point is perseverance. I'll do my best to become a frontend developer.
+                </p>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience:</h2>
+                <ul class="list experience">
+                    <li class="list-item">Git CV Markup:
+                    <a href="https://sondora99.github.io/rsschool-cv/cv">https://sondora99.github.io/rsschool-cv/cv</a>
+                    </li>
+                    <li class="list-item">Git CV:
+                        <a href="https://sondora99.github.io/rsschool-cv">https://sondora99.github.io/rsschool-cv</a>
+                        </li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education:</h2>
+                <ul class="list education">
+                    <li class="list-item">BSEU Minsk, Belarus:
+                        <ul class="list inner-list">
+                            <li class="list-item">Bachelor, Marketing specialist</li>
+                        </ul>
+                    </li>
+                    <li class="list-item">FreeCodeCamp</li>
+                    <li class="list-item">Sololearn: CSS & HTML introduction</li>
+                    <li class="list-item">HTML Academy</li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages:</h2>
+                <ul class="list languages">
+                    <li class="list-item">Belarusian (native)</li>
+                    <li class="list-item">Russian (native)</li>
+                    <li class="list-item">English (c1)</li>
+                </ul>
+            </section>
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+            <ul class="list footer">
+                <li class="list-item">
+                    <a class="link" href="https://rs.school/courses/javascript-preschool-ru">
+                        <img class="rss-logo" src="img/rs-school-logo.svg" alt="RS-school logo">
+                    </a>
+                </li>
+                <li class="list-item">@2024</li>
+                <li class="list-item">
+                    <a class="link" href="https://github.com/sondora99">
+                        <img class="git-logo" src="img/github-mark.svg" alt="GitHub">
+                    </a>
+                </li>
+            </ul>
+    </footer>
+    </div>
+</body>
 </html>
+
