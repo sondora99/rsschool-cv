@@ -1,3 +1,38 @@
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #163152;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid red;
+  }
+
+.section{
+    border: 1px solid red;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+.nav-list-item{
+    margin-right: 20px;
+}
+
+.nav-list-item:last-child{
+    margin-right: 0;
+}
+
+.list.footer {
+    list-style: none;
 }
