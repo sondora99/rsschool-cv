@@ -64,24 +64,71 @@
                     <li class="list-item">VS Code, PyCharm</li>
                 </ul>
             </section>
-            <section class="section" id="code-example:"></section>
+            <section class="section" id="code-example:">
               <h2 section-title>Code Example:</h2>
-              <code>
-                javascript
-                function maskify(cc) {
-                if (cc.length > 4) {
-                    let starsLength = cc.length-4;
-                    let visible = cc.slice(-4);
-                    return `${'#'.repeat(starsLength)}${visible}`
-                } else {
-                    return cc
-                }
-                }
-              </code>
-
+              <pre>
+                <code>
+                    javascript
+                    function maskify(cc) {
+                    if (cc.length > 4) {
+                        let starsLength = cc.length-4;
+                        let visible = cc.slice(-4);
+                        return `${'#'.repeat(starsLength)}${visible}`
+                    } else {
+                        return cc 
+                        }
+                    }
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience:</h2>
+                <ul class="list experience">
+                    <li class="list-item">Git CV:
+                    <a href="https://sondora99.github.io/rsschool-cv/cv">https://sondora99.github.io/rsschool-cv/cv</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education:</h2>
+                <ul class="list education">
+                    <li class="list-item">BSEU Minsk, Belarus:
+                        <ul class="list inner-list">
+                            <li class="list-item">Bachelor, Marketing specialist</li>
+                        </ul>
+                    </li>
+                    <li class="list-item">FreeCodeCamp</li>
+                    <li class="list-item">Sololearn: CSS & HTML introduction</li>
+                    <li class="list-item">HTML Academy</li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages:</h2>
+                <ul class="list languages">
+                    <li class="list-item">Belarusian (native)</li>
+                    <li class="list-item">Russian (native)</li>
+                    <li class="list-item">English (c1)</li>
+                </ul>
+            </section>
         </div>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container">
+            <ul class="list footer">
+                <li class="list-item">
+                    <a class="link" href="https://rs.school/courses/javascript-preschool-ru">
+                        <img class="logo" src="img/rs-school-logo.svg" alt="RS-school logo">
+                    </a>
+                </li>
+                <li class="list-item">2024</li>
+                <li class="list-item">
+                    <a class="link" href="https://github.com/sondora99">
+                        <img class="logo" src="img/github-mark.svg" alt="GitHub">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
 
