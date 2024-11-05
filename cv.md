@@ -34,6 +34,7 @@ function maskify(cc) {
 ## Experience:
 * Git CV:
 https://sondora99.github.io/rsschool-cv/cv
+* Shelter:
 https://rolling-scopes-school.github.io/sondora99-JSFEPRESCHOOL2024Q2/shelter/
 
 ## Education:
