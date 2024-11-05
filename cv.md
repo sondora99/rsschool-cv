@@ -3,7 +3,7 @@
 ## Contacts:
 * __Phone:__ +7 921 8821625
 * __E-mail:__ marymikser@gmail.com
-* __Discord:__ masham.sondora99_28186
+* __Discord:__ mashsha.mia
 
 ***
 ## About me:   
@@ -34,6 +34,8 @@ function maskify(cc) {
 ## Experience:
 * Git CV:
 https://sondora99.github.io/rsschool-cv/cv
+* Shelter:
+https://rolling-scopes-school.github.io/sondora99-JSFEPRESCHOOL2024Q2/shelter/
 
 ## Education:
 * BSEU Minsk, Belarus:

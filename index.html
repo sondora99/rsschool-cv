@@ -7,8 +7,9 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    
     <header class="header">
+        <div class="container">
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-list-item"><a class="nav-list-link" href="#profile">Profile</a></li>
@@ -21,8 +22,10 @@
                     <li class="nav-list-item"><a class="nav-list-link" href="#languages">Languages</a></li>
                 </ul>               
             </nav>
+        </div>
     </header>
     <main class="main">
+        <div class="container">
         <div class="content-columns">
             <div class="left-column profile">
                 <img class="user-img" src="img/cat-img.jpg" alt="Mary Mikuich">
@@ -43,7 +46,7 @@
                     </li>
                     <li class="contacts-list-item">
                         <h3 class="contacts-title">Discord:</h3>
-                        <p class="contacts-info">masham.sondora99_28186</p>
+                        <p class="contacts-info">mashsha.mia</p>
                     </li>
                 </ul>
             </section>
@@ -58,19 +61,15 @@
                     <li class="list-item">VS Code, PyCharm</li>
                 </ul>
             </section>
-            <section class="section" id="code-example:">
+            <section class="section" id="code-example">
               <h2 class="section-title">Code Example:</h2>
               <pre>
                 <code>
- javascript
- function maskify(cc) {
- if (cc.length > 4) {
-    let starsLength = cc.length-4;
-    let visible = cc.slice(-4);
-        return `${'#'.repeat(starsLength)}${visible}`
-    } else {
-        return cc 
-        }
+function sentence(arrayOfObjects) {
+    return arrayOfObjects.sort((item, nextItem) =&gt;
+    (Object.keys(item)) - Object.keys(nextItem))
+    .map(item =&gt; Object.values(item))
+    .join(' ');
     }
                     </code>
                 </pre>
@@ -87,11 +86,14 @@
                 <h2 class="section-title">Experience:</h2>
                 <ul class="list experience">
                     <li class="list-item">Git CV Markup:
-                    <a href="https://sondora99.github.io/rsschool-cv/cv">https://sondora99.github.io/rsschool-cv/cv</a>
+                    <a href="https://sondora99.github.io/rsschool-cv/cv" target="_blank">https://sondora99.github.io/rsschool-cv/cv</a>
                     </li>
                     <li class="list-item">Git CV:
-                        <a href="https://sondora99.github.io/rsschool-cv">https://sondora99.github.io/rsschool-cv</a>
-                        </li>
+                        <a href="https://sondora99.github.io/rsschool-cv" target="_blank">https://sondora99.github.io/rsschool-cv</a>
+                    </li>
+                    <li class="list-item">Shelter:
+                        <a href="https://rolling-scopes-school.github.io/sondora99-JSFEPRESCHOOL2024Q2/shelter/" target="_blank">https://rolling-scopes-school.github.io/sondora99-JSFEPRESCHOOL2024Q2/shelter/</a>
+                    </li>
                 </ul>
             </section>
             <section class="section" id="education">
@@ -117,11 +119,13 @@
             </section>
         </div>
         </div>
+        </div>
     </main>
     <footer class="footer">
+        <div class="container">
             <ul class="list footer">
                 <li class="list-item">
-                    <a class="link" href="https://rs.school/courses/javascript-preschool-ru">
+                    <a class="link" href="https://rs.school/courses/javascript-ru" target="_blank">
                         <img class="rss-logo" src="img/rs-school-logo.svg" alt="RS-school logo">
                     </a>
                 </li>
@@ -132,8 +136,9 @@
                     </a>
                 </li>
             </ul>
+        </div>
     </footer>
-    </div>
+    
 </body>
 </html>
 
