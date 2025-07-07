@@ -28,6 +28,8 @@ a{
     margin-bottom: 10px;
     max-height: 350px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -111,6 +113,7 @@ a{
 pre{
     padding: 0;
     margin: 0;
+    white-space: pre-wrap;
 }
 
 .footer{
